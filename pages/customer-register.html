@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style-pages.css">
+        <title>Cadastro de Clientes</title>
+    </head>
+    <body>
+        <div class="form">
+            <form id="customer-form">
+                <label for="name">Nome
+                <input type="text" placeholder="José" name="name" id="name" class="input">
+            </label>
+            <label for="lastname">Sobrenome
+                <input type="text" placeholder="Silva" name="lastname" id="lastname" class="input">
+            </label>
+            <label for="address">Endereço
+                <input type="text" placeholder="Rua Dr. José Oliveira" name="address" id="address" class="input">
+            </label>
+            <label for="house">Número
+                <input type="text" placeholder="123" name="house" id="house" class="input">
+            </label>
+            <label for="city">Cidade
+                <input type="text" placeholder="Palmas" name="city" id="city" class="input">
+            </label>
+            <label for="state">Estado
+                <input type="text" placeholder="Tocantins" name="state" id="state" class="input">
+            </label>
+            <div class="button">
+                <button id="submit" type="submit">Enviar Dados</button>
+            </div>           
+        </form>
+    </div>
+    <div id="file"></div>
+    <script type="module" src="../scripts/customer-register.js"></script>
+</body>
+</html>
