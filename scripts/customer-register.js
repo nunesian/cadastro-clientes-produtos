@@ -26,5 +26,5 @@ form.addEventListener("submit", function(evt) {
     let customer = new Customer(name,lastname,address,house,city,state)
     customersData.push(customer)
     //appendNewCustomer(JSON.stringify(customersData))
-    localStorage.setItem(id,JSON.stringify(customer))
+    localStorage.setItem(`C${id}`,JSON.stringify(customer))
 })
