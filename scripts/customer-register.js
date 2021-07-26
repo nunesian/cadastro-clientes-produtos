@@ -1,6 +1,6 @@
 import Customer from '../elements/Customer.js'
 import { customersData } from '../data/customer-data.js'
-import { app } from './api'
+//import { app } from './api'
 //const path = require('path')
 //const fs = require('fs') 
 
@@ -24,7 +24,7 @@ form.addEventListener("submit", function(evt) {
     let state = document.getElementById("state").value
     
     let customer = new Customer(name,lastname,address,house,city,state)
-    customersData.push(customer)
+    //customersData.push(customer)
     //appendNewCustomer(JSON.stringify(customersData))
-    localStorage.setItem(id,JSON.stringify(customer))
+    localStorage.setItem(`C${id}`,JSON.stringify(customer))
 })

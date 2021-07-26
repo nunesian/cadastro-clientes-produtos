@@ -8,5 +8,5 @@ Features:
 * Index chama páginas separadas de cadastro de clientes e produtos
 
 Futuras Melhorias:
-* Implementaçao de API para gravação dos dados no backend
+* Conclusão da implementaçao de API para gravação dos dados no backend
 * Exibição da lista completa atualizada de cadastros após a conclusão de um novo cadastro
