@@ -1,6 +1,6 @@
 import Customer from '../elements/Customer.js'
 import { customersData } from '../data/customer-data.js'
-import { app } from './api'
+//import { app } from './api'
 //const path = require('path')
 //const fs = require('fs') 
 
